@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF89EFC7-75E5-4966-8356-7A32BB49AA57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Unicom_Tic_Management_System</RootNamespace>
+    <AssemblyName>Unicom Tic Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.119.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivityLogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActivityLogForm.Designer.cs">
+      <DependentUpon>ActivityLogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ActivityLogController.cs" />
+    <Compile Include="Controllers\CourseController.cs" />
+    <Compile Include="Controllers\LecturerController.cs" />
+    <Compile Include="Controllers\MentorController.cs" />
+    <Compile Include="Controllers\NicDetailsController.cs" />
+    <Compile Include="Controllers\StaffController.cs" />
+    <Compile Include="Controllers\StudentController.cs" />
+    <Compile Include="Controllers\SubjectController.cs" />
+    <Compile Include="Controllers\TimeSlotController.cs" />
+    <Compile Include="Controllers\TimetableController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Datas\DatabaseManager.cs" />
+    <Compile Include="Datas\Migration.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ActivityLog.cs" />
+    <Compile Include="Models\AdmissionNumber.cs" />
+    <Compile Include="Models\Assignment.cs" />
+    <Compile Include="Models\Attendance.cs" />
+    <Compile Include="Models\BackupLog.cs" />
+    <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\CourseSubject.cs" />
+    <Compile Include="Models\Department.cs" />
+    <Compile Include="Models\DTOs\AcademicDTOs\CourseDto.cs" />
+    <Compile Include="Models\DTOs\AcademicDTOs\DepartmentDto.cs" />
+    <Compile Include="Models\DTOs\AcademicDTOs\SubjectDto.cs" />
+    <Compile Include="Models\DTOs\AcademicOperationsDTOs\AssignmentDto.cs" />
+    <Compile Include="Models\DTOs\AcademicOperationsDTOs\ExamDto.cs" />
+    <Compile Include="Models\DTOs\AcademicOperationsDTOs\MarkDto.cs" />
+    <Compile Include="Models\DTOs\AcademicOperationsDTOs\SubmissionDto.cs" />
+    <Compile Include="Models\DTOs\ActivityLogDto\ActivityLogDto.cs" />
+    <Compile Include="Models\DTOs\Grouping&amp;MentoringDTOs\MainGroupDto.cs" />
+    <Compile Include="Models\DTOs\Grouping&amp;MentoringDTOs\MentorDto.cs" />
+    <Compile Include="Models\DTOs\Grouping&amp;MentoringDTOs\StudentDto.cs" />
+    <Compile Include="Models\DTOs\Grouping&amp;MentoringDTOs\SubGroupDto.cs" />
+    <Compile Include="Models\DTOs\Notifications&amp;LogsDTOs\LeaveRequestDto.cs" />
+    <Compile Include="Models\DTOs\Notifications&amp;LogsDTOs\NotificationDto.cs" />
+    <Compile Include="Models\DTOs\Notifications&amp;LogsDTOs\StudentComplaintDto.cs" />
+    <Compile Include="Models\DTOs\Scheduling&amp;AttendanceDTOs\AttendanceDto.cs" />
+    <Compile Include="Models\DTOs\Scheduling&amp;AttendanceDTOs\RoomDto.cs" />
+    <Compile Include="Models\DTOs\Scheduling&amp;AttendanceDTOs\TimetableEntryDto.cs" />
+    <Compile Include="Models\DTOs\StaffDTOs\LecturerDto.cs" />
+    <Compile Include="Models\DTOs\StaffDTOs\StaffDto.cs" />
+    <Compile Include="Models\DTOs\UserDtos\NicDetailDTO.cs" />
+    <Compile Include="Models\DTOs\UserDtos\UserDto.cs" />
+    <Compile Include="Models\DTOs\UserDtos\UserLoginDto.cs" />
+    <Compile Include="Models\DTOs\UserDtos\UserRegistrationDto.cs" />
+    <Compile Include="Models\DTOs\UserDtos\UserUpdateDto.cs" />
+    <Compile Include="Models\EmployeeId.cs" />
+    <Compile Include="Models\Enums\AttendanceStatus.cs" />
+    <Compile Include="Models\Enums\GenderType.cs" />
+    <Compile Include="Models\Enums\LeaveStatus.cs" />
+    <Compile Include="Models\Enums\UserRole.cs" />
+    <Compile Include="Models\Exam.cs" />
+    <Compile Include="Models\GroupMentor.cs" />
+    <Compile Include="Models\GroupSubject.cs" />
+    <Compile Include="Models\LeaveRequest.cs" />
+    <Compile Include="Models\Lecturer.cs" />
+    <Compile Include="Models\LecturerStudent.cs" />
+    <Compile Include="Models\LectureSubject.cs" />
+    <Compile Include="Models\MainGroup.cs" />
+    <Compile Include="Models\Mark.cs" />
+    <Compile Include="Models\Mentor.cs" />
+    <Compile Include="Models\NicDetail.cs" />
+    <Compile Include="Models\Notification.cs" />
+    <Compile Include="Models\Room.cs" />
+    <Compile Include="Models\Staff.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\StudentComplaint.cs" />
+    <Compile Include="Models\StudentGroup .cs" />
+    <Compile Include="Models\SubGroup.cs" />
+    <Compile Include="Models\Subject.cs" />
+    <Compile Include="Models\Submission.cs" />
+    <Compile Include="Models\TimeSlot.cs" />
+    <Compile Include="Models\Timetable.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ActivityLogRepository.cs" />
+    <Compile Include="Repositories\AdmissionNumberRepository.cs" />
+    <Compile Include="Repositories\AssignmentRepository.cs" />
+    <Compile Include="Repositories\AttendanceRepository.cs" />
+    <Compile Include="Repositories\BackupLogRepository.cs" />
+    <Compile Include="Repositories\CourseRepository.cs" />
+    <Compile Include="Repositories\CourseSubjectRepository.cs" />
+    <Compile Include="Repositories\DepartmentRepository.cs" />
+    <Compile Include="Repositories\EmployeeIdRepository.cs" />
+    <Compile Include="Repositories\ExamRepository.cs" />
+    <Compile Include="Repositories\GroupMentorRepository.cs" />
+    <Compile Include="Repositories\GroupSubjectRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IActivityLogRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IAdmissionNumberRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IAssignmentRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IAttendanceRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IBackupLogRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICourseRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICourseSubjectRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IDepartmentRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IEmployeeIdRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IExamRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGroupMentorRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IGroupSubjectRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ILeaveRequestRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ILecturerRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ILecturerStudentRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ILectureSubjectRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IMainGroupRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IMarkRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IMentorRepository.cs" />
+    <Compile Include="Repositories\Interfaces\INicDetailsRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IRoomRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IStaffRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IStudentRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ISubGroupRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ISubjectRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ISubmissionRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ITimeSlotRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ITimetableRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IUserRepository.cs" />
+    <Compile Include="Repositories\LeaveRequestRepository.cs" />
+    <Compile Include="Repositories\LecturerRepository.cs" />
+    <Compile Include="Repositories\LecturerStudentRepository.cs" />
+    <Compile Include="Repositories\LectureSubjectRepository.cs" />
+    <Compile Include="Repositories\MainGroupRepository.cs" />
+    <Compile Include="Repositories\MarkRepository.cs" />
+    <Compile Include="Repositories\MentorRepository.cs" />
+    <Compile Include="Repositories\NicDetailsrepository.cs" />
+    <Compile Include="Repositories\StaffRepository.cs" />
+    <Compile Include="Repositories\StudentRepository.cs" />
+    <Compile Include="Repositories\SubGroupRepository.cs" />
+    <Compile Include="Repositories\SubjectRepository.cs" />
+    <Compile Include="Repositories\SubmissionRepository.cs" />
+    <Compile Include="Repositories\TimeSlotRepository.cs" />
+    <Compile Include="Repositories\TimetableRepository.cs" />
+    <Compile Include="Repositories\UserRepository.cs" />
+    <Compile Include="Services\ActivityLogService.cs" />
+    <Compile Include="Services\CourseService.cs" />
+    <Compile Include="Services\Interfaces\IActivityLogService.cs" />
+    <Compile Include="Services\Interfaces\IAssignmentService.cs" />
+    <Compile Include="Services\Interfaces\ICourseService.cs" />
+    <Compile Include="Services\Interfaces\IDepartmentService.cs" />
+    <Compile Include="Services\Interfaces\IExamService.cs" />
+    <Compile Include="Services\Interfaces\ILeaveRequestService.cs" />
+    <Compile Include="Services\Interfaces\ILecturerService.cs" />
+    <Compile Include="Services\Interfaces\IMainGroupService.cs" />
+    <Compile Include="Services\Interfaces\IMarkService.cs" />
+    <Compile Include="Services\Interfaces\IMentorService.cs" />
+    <Compile Include="Services\Interfaces\IAttendanceService.cs" />
+    <Compile Include="Services\Interfaces\INicDetailsService.cs" />
+    <Compile Include="Services\Interfaces\INotificationService.cs" />
+    <Compile Include="Services\Interfaces\IRoomService.cs" />
+    <Compile Include="Services\Interfaces\IStaffService.cs" />
+    <Compile Include="Services\Interfaces\IStudentComplaintService.cs" />
+    <Compile Include="Services\Interfaces\IStudentService.cs" />
+    <Compile Include="Services\Interfaces\ISubGroupService.cs" />
+    <Compile Include="Services\Interfaces\ISubjectService.cs" />
+    <Compile Include="Services\Interfaces\ISubmissionService.cs" />
+    <Compile Include="Services\Interfaces\ITimeSlotService.cs" />
+    <Compile Include="Services\Interfaces\ITimetableEntryService.cs" />
+    <Compile Include="Services\Interfaces\IUserService.cs" />
+    <Compile Include="Services\LecturerService.cs" />
+    <Compile Include="Services\MentorService.cs" />
+    <Compile Include="Services\NicDetailsService.cs" />
+    <Compile Include="Services\StaffService.cs" />
+    <Compile Include="Services\StudentService.cs" />
+    <Compile Include="Services\SubjectService.cs" />
+    <Compile Include="Services\TimeSlotService.cs" />
+    <Compile Include="Services\TimetableEntryService .cs" />
+    <Compile Include="Services\UserService.cs" />
+    <Compile Include="Utilities\Mappers\ActivityLogMapper.cs" />
+    <Compile Include="Utilities\Mappers\AssignmentMapper.cs" />
+    <Compile Include="Utilities\Mappers\AttendanceMapper.cs" />
+    <Compile Include="Utilities\Mappers\CourseMapper.cs" />
+    <Compile Include="Utilities\Mappers\DepartmentMapper.cs" />
+    <Compile Include="Utilities\Mappers\ExamMapper.cs" />
+    <Compile Include="Utilities\Mappers\LeaveRequestMapper.cs" />
+    <Compile Include="Utilities\Mappers\LecturerMapper.cs" />
+    <Compile Include="Utilities\Mappers\MainGroupMapper.cs" />
+    <Compile Include="Utilities\Mappers\MarkMapper.cs" />
+    <Compile Include="Utilities\Mappers\MentorMapper.cs" />
+    <Compile Include="Utilities\Mappers\NicDetailMapper.cs" />
+    <Compile Include="Utilities\Mappers\NotificationMapper.cs" />
+    <Compile Include="Utilities\Mappers\RoomMapper.cs" />
+    <Compile Include="Utilities\Mappers\StaffMapper.cs" />
+    <Compile Include="Utilities\Mappers\StudentComplaintMapper.cs" />
+    <Compile Include="Utilities\Mappers\StudentMapper.cs" />
+    <Compile Include="Utilities\Mappers\SubGroupMapper.cs" />
+    <Compile Include="Utilities\Mappers\SubjectMapper.cs" />
+    <Compile Include="Utilities\Mappers\SubmissionMapper.cs" />
+    <Compile Include="Utilities\Mappers\TimetableEntryMapper.cs" />
+    <Compile Include="Utilities\Mappers\UserMapper.cs" />
+    <Compile Include="Utilities\Mappers\UserRegistrationMapper.cs" />
+    <Compile Include="Utilities\Mappers\UserUpdateMapper.cs" />
+    <Compile Include="Utilities\PasswordHasher.cs" />
+    <Compile Include="ViewForms\CourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\CourseForm.Designer.cs">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForms\LecturerRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\LecturerRegistrationForm.Designer.cs">
+      <DependentUpon>LecturerRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForms\MentorsRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\MentorsRegistrationForm.Designer.cs">
+      <DependentUpon>MentorsRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForms\NicDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\NicDetailForm.Designer.cs">
+      <DependentUpon>NicDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForms\StaffForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\StaffForm.Designer.cs">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForms\StudentRegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\StudentRegistrationForm.Designer.cs">
+      <DependentUpon>StudentRegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForms\SubjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\SubjectForm.Designer.cs">
+      <DependentUpon>SubjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForms\TimeSlotForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\TimeSlotForm.Designer.cs">
+      <DependentUpon>TimeSlotForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForms\TimetableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\TimetableForm.Designer.cs">
+      <DependentUpon>TimetableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForms\UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForms\UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ActivityLogForm.resx">
+      <DependentUpon>ActivityLogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ViewForms\CourseForm.resx">
+      <DependentUpon>CourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForms\LecturerRegistrationForm.resx">
+      <DependentUpon>LecturerRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForms\MentorsRegistrationForm.resx">
+      <DependentUpon>MentorsRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForms\NicDetailForm.resx">
+      <DependentUpon>NicDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForms\StaffForm.resx">
+      <DependentUpon>StaffForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForms\StudentRegistrationForm.resx">
+      <DependentUpon>StudentRegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForms\SubjectForm.resx">
+      <DependentUpon>SubjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForms\TimeSlotForm.resx">
+      <DependentUpon>TimeSlotForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForms\TimetableForm.resx">
+      <DependentUpon>TimetableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForms\UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+</Project>
