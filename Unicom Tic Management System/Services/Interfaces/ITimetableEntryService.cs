@@ -9,15 +9,17 @@ namespace Unicom_Tic_Management_System.Services.Interfaces
 {
     internal interface ITimetableEntryService
     {
-        TimetableEntryDto GetTimetableEntryById(int timetableId);
-        List<TimetableEntryDto> GetAllTimetableEntries();
-        List<TimetableEntryDto> GetTimetableForCourse(int courseId, string academicYear);
-        List<TimetableEntryDto> GetTimetableForLecturer(int lecturerId, string academicYear);
-        List<TimetableEntryDto> GetTimetableForRoom(int roomId, string academicYear);
-        List<TimetableEntryDto> GetTimetableForDay(string dayOfWeek, string academicYear);
-        void AddTimetableEntry(TimetableEntryDto entryDto);
-        void UpdateTimetableEntry(TimetableEntryDto entryDto);
+        void AddTimetableEntry(TimetableEntryDto timetableDto);
+        void UpdateTimetableEntry(TimetableEntryDto timetableDto);
         void DeleteTimetableEntry(int timetableId);
+        TimetableEntryDto GetTimetableEntryById(int timetableId);
+        List<TimetableEntryDto> GetTimetableEntriesByCourse(int courseId, string academicYear = null);
+        List<TimetableEntryDto> GetTimetableEntriesBySubject(int subjectId, string academicYear = null);
+        List<TimetableEntryDto> GetTimetableEntriesByLecturer(int lecturerId, string academicYear = null);
+        List<TimetableEntryDto> GetTimetableEntriesByRoom(int roomId, string academicYear = null);
+        List<TimetableEntryDto> GetTimetableEntriesByDayAndTimeSlot(string dayOfWeek, int timeSlotId, string academicYear = null);
+        List<TimetableEntryDto> GetTimetableEntriesByAcademicYear(string academicYear);
+        List<TimetableEntryDto> GetAllTimetableEntries();
     }
 }
 

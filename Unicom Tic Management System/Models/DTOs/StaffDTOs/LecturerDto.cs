@@ -8,6 +8,8 @@ namespace Unicom_Tic_Management_System.Models.DTOs.StaffDTOs
 {
     internal class LecturerDto
     {
+        internal string LecturerName;
+
         public int LecturerId { get; set; }
         public string Name { get; set; }
         public string Nic { get; set; }

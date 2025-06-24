@@ -130,6 +130,7 @@ namespace Unicom_Tic_Management_System.Datas
                         SubGroupID INTEGER NOT NULL,
                         CreatedAt TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
                         UpdatedAt TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+                        AdmissionNumber TEXT NOT NULL UNIQUE,
                         FOREIGN KEY (CourseID) REFERENCES Courses(CourseID),
                         FOREIGN KEY (UserID) REFERENCES Users(UserID),
                         FOREIGN KEY (NIC) REFERENCES NICDetails(NIC),

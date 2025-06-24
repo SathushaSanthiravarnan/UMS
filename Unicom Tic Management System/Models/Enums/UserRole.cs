@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Unicom_Tic_Management_System.Models.Enums
 {
-    internal enum UserRole
+    public enum UserRole
     {
         Student,
         Lecturer,

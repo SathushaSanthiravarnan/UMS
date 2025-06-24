@@ -13,7 +13,7 @@ namespace Unicom_Tic_Management_System.Models
         public int SubjectId { get; set; }
         public int ExamId { get; set; }
         public int MarksObtained { get; set; }
-        public int? GradedByLecturerId { get; set; }
+        public int? GradedByLecturerId { get; set; } 
         public string Grade { get; set; }
         public DateTime EntryDate { get; set; }
 

@@ -12,6 +12,7 @@ namespace Unicom_Tic_Management_System.Services
 {
     internal class SubjectService : ISubjectService
     {
+
         private readonly ISubjectRepository _repository;
 
         public SubjectService(ISubjectRepository repository)

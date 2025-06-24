@@ -10,14 +10,25 @@ namespace Unicom_Tic_Management_System.Services.Interfaces
 {
     internal interface IMarkService
     {
-        MarkDto GetMarkById(int markId);
-        List<MarkDto> GetAllMarks();
-        List<MarkDto> GetMarksByStudent(int studentId);
-        List<MarkDto> GetMarksBySubject(int subjectId);
-        List<MarkDto> GetMarksByExam(int examId);
-        List<MarkDto> GetMarksGradedByLecturer(int lecturerId);
-        void AddMark(MarkDto markDto);
-        void UpdateMark(MarkDto markDto);
+        void AddMark(MarkDto markDto); 
+        void UpdateMark(MarkDto markDto); 
         void DeleteMark(int markId);
+
+        
+        MarkDisplayDto GetMarkDisplayById(int markId); 
+
+
+        List<MarkDisplayDto> GetAllMarkDetails();
+
+        
+        List<MarkDisplayDto> GetMarkDetailsByStudentId(int studentId);
+        List<MarkDisplayDto> GetMarkDetailsBySubjectId(int subjectId);
+        List<MarkDisplayDto> GetMarkDetailsByExamId(int examId);
+        List<MarkDisplayDto> GetMarkDetailsByLecturerId(int lecturerId);
+
+
+        List<TopPerformerDto> GetTopPerformers(int count);
+        string CalculateGrade(int marksObtained); 
     }
 }
+

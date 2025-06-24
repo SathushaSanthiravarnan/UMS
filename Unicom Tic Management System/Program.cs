@@ -12,10 +12,14 @@ namespace Unicom_Tic_Management_System
         [STAThread]
         static void Main()
         {
-            Migration.CreateTables();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StaffForm());
+
+            Migration.CreateTables();
+            DatabaseSeeder.SeedAdminUser();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new LoginForm());
         }
     }
 }

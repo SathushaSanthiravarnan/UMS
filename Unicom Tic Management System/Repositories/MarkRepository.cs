@@ -6,12 +6,29 @@ using System.Text;
 using System.Threading.Tasks;
 using Unicom_Tic_Management_System.Datas;
 using Unicom_Tic_Management_System.Models;
+using Unicom_Tic_Management_System.Models.DTOs.AcademicOperationsDTOs;
 using Unicom_Tic_Management_System.Repositories.Interfaces;
 
 namespace Unicom_Tic_Management_System.Repositories
 {
     internal class MarkRepository : IMarkRepository
     {
+        // Helper method to read Mark from SQLiteDataReader
+        private Mark ReadMarkFromReader(SQLiteDataReader reader)
+        {
+            return new Mark
+            {
+                MarkId = reader.GetInt32(reader.GetOrdinal("MarkId")),
+                StudentId = reader.GetInt32(reader.GetOrdinal("StudentId")),
+                SubjectId = reader.GetInt32(reader.GetOrdinal("SubjectId")),
+                ExamId = reader.GetInt32(reader.GetOrdinal("ExamId")),
+                MarksObtained = reader.GetInt32(reader.GetOrdinal("MarksObtained")),
+                GradedByLecturerId = reader.IsDBNull(reader.GetOrdinal("GradedByLecturerId")) ? (int?)null : reader.GetInt32(reader.GetOrdinal("GradedByLecturerId")),
+                Grade = reader.GetString(reader.GetOrdinal("Grade")),
+                EntryDate = DateTime.Parse(reader.GetString(reader.GetOrdinal("EntryDate")))
+            };
+        }
+
         public void AddMark(Mark mark)
         {
             try
@@ -106,17 +123,7 @@ namespace Unicom_Tic_Management_System.Repositories
                     {
                         if (reader.Read())
                         {
-                            return new Mark
-                            {
-                                MarkId = reader.GetInt32(0),
-                                StudentId = reader.GetInt32(1),
-                                SubjectId = reader.GetInt32(2),
-                                ExamId = reader.GetInt32(3),
-                                MarksObtained = reader.GetInt32(4),
-                                GradedByLecturerId = reader.IsDBNull(5) ? (int?)null : reader.GetInt32(5),
-                                Grade = reader.GetString(6),
-                                EntryDate = DateTime.Parse(reader.GetString(7))
-                            };
+                            return ReadMarkFromReader(reader);
                         }
                         return null;
                     }
@@ -148,17 +155,7 @@ namespace Unicom_Tic_Management_System.Repositories
                     {
                         if (reader.Read())
                         {
-                            return new Mark
-                            {
-                                MarkId = reader.GetInt32(0),
-                                StudentId = reader.GetInt32(1),
-                                SubjectId = reader.GetInt32(2),
-                                ExamId = reader.GetInt32(3),
-                                MarksObtained = reader.GetInt32(4),
-                                GradedByLecturerId = reader.IsDBNull(5) ? (int?)null : reader.GetInt32(5),
-                                Grade = reader.GetString(6),
-                                EntryDate = DateTime.Parse(reader.GetString(7))
-                            };
+                            return ReadMarkFromReader(reader);
                         }
                         return null;
                     }
@@ -189,17 +186,7 @@ namespace Unicom_Tic_Management_System.Repositories
                     {
                         while (reader.Read())
                         {
-                            marks.Add(new Mark
-                            {
-                                MarkId = reader.GetInt32(0),
-                                StudentId = reader.GetInt32(1),
-                                SubjectId = reader.GetInt32(2),
-                                ExamId = reader.GetInt32(3),
-                                MarksObtained = reader.GetInt32(4),
-                                GradedByLecturerId = reader.IsDBNull(5) ? (int?)null : reader.GetInt32(5),
-                                Grade = reader.GetString(6),
-                                EntryDate = DateTime.Parse(reader.GetString(7))
-                            });
+                            marks.Add(ReadMarkFromReader(reader));
                         }
                     }
                 }
@@ -230,17 +217,7 @@ namespace Unicom_Tic_Management_System.Repositories
                     {
                         while (reader.Read())
                         {
-                            marks.Add(new Mark
-                            {
-                                MarkId = reader.GetInt32(0),
-                                StudentId = reader.GetInt32(1),
-                                SubjectId = reader.GetInt32(2),
-                                ExamId = reader.GetInt32(3),
-                                MarksObtained = reader.GetInt32(4),
-                                GradedByLecturerId = reader.IsDBNull(5) ? (int?)null : reader.GetInt32(5),
-                                Grade = reader.GetString(6),
-                                EntryDate = DateTime.Parse(reader.GetString(7))
-                            });
+                            marks.Add(ReadMarkFromReader(reader));
                         }
                     }
                 }
@@ -271,17 +248,7 @@ namespace Unicom_Tic_Management_System.Repositories
                     {
                         while (reader.Read())
                         {
-                            marks.Add(new Mark
-                            {
-                                MarkId = reader.GetInt32(0),
-                                StudentId = reader.GetInt32(1),
-                                SubjectId = reader.GetInt32(2),
-                                ExamId = reader.GetInt32(3),
-                                MarksObtained = reader.GetInt32(4),
-                                GradedByLecturerId = reader.IsDBNull(5) ? (int?)null : reader.GetInt32(5),
-                                Grade = reader.GetString(6),
-                                EntryDate = DateTime.Parse(reader.GetString(7))
-                            });
+                            marks.Add(ReadMarkFromReader(reader));
                         }
                     }
                 }
@@ -312,17 +279,7 @@ namespace Unicom_Tic_Management_System.Repositories
                     {
                         while (reader.Read())
                         {
-                            marks.Add(new Mark
-                            {
-                                MarkId = reader.GetInt32(0),
-                                StudentId = reader.GetInt32(1),
-                                SubjectId = reader.GetInt32(2),
-                                ExamId = reader.GetInt32(3),
-                                MarksObtained = reader.GetInt32(4),
-                                GradedByLecturerId = reader.IsDBNull(5) ? (int?)null : reader.GetInt32(5),
-                                Grade = reader.GetString(6),
-                                EntryDate = DateTime.Parse(reader.GetString(7))
-                            });
+                            marks.Add(ReadMarkFromReader(reader));
                         }
                     }
                 }
@@ -352,17 +309,7 @@ namespace Unicom_Tic_Management_System.Repositories
                     {
                         while (reader.Read())
                         {
-                            marks.Add(new Mark
-                            {
-                                MarkId = reader.GetInt32(0),
-                                StudentId = reader.GetInt32(1),
-                                SubjectId = reader.GetInt32(2),
-                                ExamId = reader.GetInt32(3),
-                                MarksObtained = reader.GetInt32(4),
-                                GradedByLecturerId = reader.IsDBNull(5) ? (int?)null : reader.GetInt32(5),
-                                Grade = reader.GetString(6),
-                                EntryDate = DateTime.Parse(reader.GetString(7))
-                            });
+                            marks.Add(ReadMarkFromReader(reader));
                         }
                     }
                 }
@@ -376,6 +323,106 @@ namespace Unicom_Tic_Management_System.Repositories
                 throw new Exception("Data format error while parsing mark dates: " + ex.Message, ex);
             }
             return marks;
+        }
+
+      
+         public List<MarkDisplayDto> GetAllMarksWithDetails()
+        {
+            List<MarkDisplayDto> marksWithDetails = new List<MarkDisplayDto>();
+            try
+            {
+                using (var connection = DatabaseManager.GetConnection())
+                {
+                    var cmd = connection.CreateCommand();
+                    cmd.CommandText = @"
+                        SELECT
+                            M.MarkId,
+                            M.StudentId,
+                            M.SubjectId, Sub.SubjectName,
+                            M.ExamId, E.ExamType,
+                            M.MarksObtained,
+                            M.GradedByLecturerId, L.LecturerName,
+                            M.Grade,
+                            M.EntryDate
+                        FROM Marks M
+                        JOIN Students S ON M.StudentId = S.StudentId
+                        JOIN Subjects Sub ON M.SubjectId = Sub.SubjectId
+                        JOIN Exams E ON M.ExamId = E.ExamId
+                        LEFT JOIN Lecturers L ON M.GradedByLecturerId = L.LecturerId
+                        ORDER BY M.EntryDate DESC, Sub.SubjectName;";
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            marksWithDetails.Add(new MarkDisplayDto
+                            {
+                                MarkId = reader.GetInt32(reader.GetOrdinal("MarkId")),
+                                StudentId = reader.GetInt32(reader.GetOrdinal("StudentId")),
+                                StudentAdmissionNumber = reader.GetString(reader.GetOrdinal("AdmissionNumber")),
+                                StudentName = $"{reader.GetString(reader.GetOrdinal("FirstName"))} {reader.GetString(reader.GetOrdinal("LastName"))}",
+                                SubjectId = reader.GetInt32(reader.GetOrdinal("SubjectId")),
+                                SubjectName = reader.GetString(reader.GetOrdinal("SubjectName")),
+                                ExamId = reader.GetInt32(reader.GetOrdinal("ExamId")),
+                                ExamType = reader.GetString(reader.GetOrdinal("ExamType")),
+                                MarksObtained = reader.GetInt32(reader.GetOrdinal("MarksObtained")),
+                                GradedByLecturerId = reader.IsDBNull(reader.GetOrdinal("GradedByLecturerId")) ? (int?)null : reader.GetInt32(reader.GetOrdinal("GradedByLecturerId")),
+                               
+                                Grade = reader.GetString(reader.GetOrdinal("Grade")),
+                                EntryDate = DateTime.Parse(reader.GetString(reader.GetOrdinal("EntryDate")))
+                            });
+                        }
+                    }
+                }
+            }
+            catch (SQLiteException ex)
+            {
+                throw new Exception("Database error while retrieving all marks with details: " + ex.Message, ex);
+            }
+            catch (FormatException ex)
+            {
+                throw new Exception("Data format error while parsing mark details: " + ex.Message, ex);
+            }
+            return marksWithDetails;
+        }
+
+         public List<TopPerformerDto> GetTopNPerformers(int count)
+        {
+            List<TopPerformerDto> topPerformers = new List<TopPerformerDto>();
+            try
+            {
+                using (var connection = DatabaseManager.GetConnection())
+                {
+                    var cmd = connection.CreateCommand();
+                    cmd.CommandText = $@"
+                        SELECT
+                            S.AdmissionNumber
+                           
+                        FROM Marks M
+                        JOIN Students S ON M.StudentId = S.StudentId
+                        GROUP BY S.StudentId
+                        
+                        LIMIT {count};"; // Use LIMIT for Top N
+
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            topPerformers.Add(new TopPerformerDto
+                            {
+                                AdmissionNumber = reader.GetString(reader.GetOrdinal("AdmissionNumber")),
+                                StudentName = reader.GetString(reader.GetOrdinal("Name")),
+                               
+                            });
+                        }
+                    }
+                }
+            }
+            catch (SQLiteException ex)
+            {
+                throw new Exception("Database error while retrieving top performers: " + ex.Message, ex);
+            }
+            return topPerformers;
         }
     }
 }

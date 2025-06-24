@@ -44,7 +44,6 @@ C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management Syst
 C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom T.68F040F6.Up2Date
 C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.exe
 C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.pdb
-C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.exe.config
 C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.TimeSlotForm.resources
 C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.TimetableForm.resources
 C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.UserForm.resources
@@ -52,3 +51,10 @@ C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management Syst
 C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.LecturerRegistrationForm.resources
 C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.MentorsRegistrationForm.resources
 C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.StaffForm.resources
+C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.RoomForm.resources
+C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.ExamForm.resources
+C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.MarkForm.resources
+C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom Tic Management System.exe.config
+C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.LoginForm.resources
+C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.MainForm.resources
+C:\Users\Administrator\Desktop\Project\C# Project\UMS\Unicom Tic Management System\obj\Debug\Unicom_Tic_Management_System.ViewForms.SignUpOptionsForm.resources

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Unicom_Tic_Management_System.Models;
+using Unicom_Tic_Management_System.Repositories;
+using Unicom_Tic_Management_System.Services;
 using Unicom_Tic_Management_System.Services.Interfaces;
 
 namespace Unicom_Tic_Management_System.Controllers
@@ -12,9 +14,9 @@ namespace Unicom_Tic_Management_System.Controllers
     {
         private readonly ITimeSlotService _service;
 
-        public TimeSlotController(ITimeSlotService service)
+        public TimeSlotController(ITimeSlotService service = null)
         {
-            _service = service;
+            _service = service ?? new TimeSlotService(new TimeSlotRepository());
         }
 
         public void AddTimeSlot(TimeSlot timeSlot)

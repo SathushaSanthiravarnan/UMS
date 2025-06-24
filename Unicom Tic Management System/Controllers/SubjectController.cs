@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Unicom_Tic_Management_System.Models.DTOs.AcademicDTOs;
+using Unicom_Tic_Management_System.Repositories;
+using Unicom_Tic_Management_System.Services;
 using Unicom_Tic_Management_System.Services.Interfaces;
 
 namespace Unicom_Tic_Management_System.Controllers
@@ -13,10 +15,11 @@ namespace Unicom_Tic_Management_System.Controllers
     {
         private readonly ISubjectService _service;
 
-        public SubjectController(ISubjectService service)
+        public SubjectController(ISubjectService service = null)
         {
-            _service = service;
+            _service = service ?? new SubjectService(new SubjectRepository());
         }
+
 
         public void AddSubject(SubjectDto subjectDto)
         {

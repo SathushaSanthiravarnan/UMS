@@ -50,6 +50,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.btnClear = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTimetables)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,6 +61,7 @@
             this.cmbRoom.Name = "cmbRoom";
             this.cmbRoom.Size = new System.Drawing.Size(121, 24);
             this.cmbRoom.TabIndex = 0;
+            this.cmbRoom.SelectedIndexChanged += new System.EventHandler(this.cmbRoom_SelectedIndexChanged);
             // 
             // cmbDay
             // 
@@ -126,12 +128,13 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(479, 119);
+            this.btnUpdate.Location = new System.Drawing.Point(479, 106);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(98, 30);
             this.btnUpdate.TabIndex = 9;
             this.btnUpdate.Text = "UPDATE";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -141,6 +144,7 @@
             this.btnDelete.TabIndex = 10;
             this.btnDelete.Text = "DELETE";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnAdd
             // 
@@ -150,16 +154,18 @@
             this.btnAdd.TabIndex = 11;
             this.btnAdd.Text = "ADD";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // dgvTimetables
             // 
             this.dgvTimetables.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTimetables.Location = new System.Drawing.Point(236, 249);
+            this.dgvTimetables.Location = new System.Drawing.Point(262, 244);
             this.dgvTimetables.Name = "dgvTimetables";
             this.dgvTimetables.RowHeadersWidth = 51;
             this.dgvTimetables.RowTemplate.Height = 24;
-            this.dgvTimetables.Size = new System.Drawing.Size(552, 298);
+            this.dgvTimetables.Size = new System.Drawing.Size(729, 390);
             this.dgvTimetables.TabIndex = 12;
+            this.dgvTimetables.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTimetables_CellClick);
             // 
             // label1
             // 
@@ -242,11 +248,21 @@
             this.label9.TabIndex = 21;
             this.label9.Text = "AcademicYear";
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(479, 158);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(100, 22);
+            this.btnClear.TabIndex = 22;
+            this.btnClear.Text = "      CLEAR";
+            this.btnClear.TextChanged += new System.EventHandler(this.btnClear_TextChanged);
+            // 
             // TimetableForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 559);
+            this.ClientSize = new System.Drawing.Size(1113, 688);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -301,5 +317,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox btnClear;
     }
 }

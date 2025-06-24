@@ -6,18 +6,34 @@ using System.Threading.Tasks;
 
 namespace Unicom_Tic_Management_System.Models.DTOs.Scheduling_AttendanceDTOs
 {
-    internal class TimetableEntryDto
+    public class TimetableEntryDto
     {
-        public int TimetableId { get; set; }
-        public int CourseId { get; set; }
-        public int SubjectId { get; set; }
-        public int LecturerId { get; set; }
-        public int RoomId { get; set; }
-        public string DayOfWeek { get; set; }
-        public int TimeSlotId { get; set; }
-        public string AcademicYear { get; set; }
-        public int GroupId { get; set; }
-        public string ActivityType { get; set; }
+        internal int SubjectId;
+        internal string SubjectName;
+        
 
+        public int TimetableId { get; set; }
+
+        public int CourseId { get; set; }
+        public string CourseName { get; set; }
+
+        public int LecturerId { get; set; }
+        public string LecturerName { get; set; }
+
+        public int RoomId { get; set; }
+        public string RoomNumber { get; set; }
+
+        public int MainGroupId { get; set; }
+        public string MainGroupName { get; set; }
+
+        public int SubGroupId { get; set; }
+        public string SubGroupName { get; set; }
+
+        public int SlotId { get; set; }
+        public string SlotTimeRange { get; set; }
+
+        public DateTime Date { get; set; }
     }
+
 }
+

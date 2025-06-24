@@ -15,6 +15,8 @@ namespace Unicom_Tic_Management_System.Models
         public string Nic { get; set; } 
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-        public UserRole Role { get; set; } 
+        public UserRole Role { get; set; }
+
+       
     }
 }

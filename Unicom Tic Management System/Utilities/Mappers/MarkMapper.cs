@@ -31,14 +31,14 @@ namespace Unicom_Tic_Management_System.Utilities.Mappers
             if (markDto == null) return null;
             return new Mark
             {
-                MarkId = markDto.MarkId,
+                MarkId = markDto.MarkId.Value,
                 StudentId = markDto.StudentId,
                 SubjectId = markDto.SubjectId,
                 ExamId = markDto.ExamId,
                 MarksObtained = markDto.MarksObtained,
                 Grade = markDto.Grade,
                 EntryDate = markDto.EntryDate,
-                GradedByLecturerId = markDto.GradedByLecturerId
+                GradedByLecturerId = markDto.GradedByLecturerId.Value
             };
         }
 

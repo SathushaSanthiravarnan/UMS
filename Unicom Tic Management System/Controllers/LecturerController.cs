@@ -71,6 +71,11 @@ namespace Unicom_Tic_Management_System.Controllers
 
             Console.WriteLine("Lecturer registered successfully!");
         }
+
+        public List<LecturerDto> GetAllLecturers()
+        {
+            return _lecturerService.GetAllLecturers();
+        }
     }
 }
 

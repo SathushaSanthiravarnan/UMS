@@ -23,7 +23,7 @@ namespace Unicom_Tic_Management_System.Utilities.Mappers
                 ContactNo = student.ContactNo,
                 Email = student.Email,
                 DateOfBirth = student.DateOfBirth,
-                Gender = (GenderType)student.Gender, // Assuming direct enum mapping
+                Gender = (GenderType)student.Gender, 
                 EnrollmentDate = student.EnrollmentDate,
                 CourseId = student.CourseId,
                 UserId = student.UserId,
