@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\unicom tic management system\\viewforms\\studentregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|c:\\users\\administrator\\desktop\\project\\c# project\\ums\\unicom tic management system\\viewforms\\studentregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\viewforms\\studentregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,7 +51,7 @@
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\models\\enums\\gendertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|c:\\users\\administrator\\desktop\\project\\c# project\\ums\\unicom tic management system\\datas\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\unicom tic management system\\datas\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\datas\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,11 +63,11 @@
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\datas\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|c:\\users\\administrator\\desktop\\project\\c# project\\ums\\unicom tic management system\\viewforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\unicom tic management system\\viewforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\viewforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|c:\\users\\administrator\\desktop\\project\\c# project\\ums\\unicom tic management system\\viewforms\\signupoptionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\unicom tic management system\\viewforms\\signupoptionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\viewforms\\signupoptionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -75,7 +75,7 @@
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|c:\\users\\administrator\\desktop\\project\\c# project\\ums\\unicom tic management system\\viewforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\unicom tic management system\\viewforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\viewforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -91,15 +91,15 @@
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|c:\\users\\administrator\\desktop\\project\\c# project\\ums\\unicom tic management system\\viewforms\\signupoptionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\unicom tic management system\\viewforms\\signupoptionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\viewforms\\signupoptionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|c:\\users\\administrator\\desktop\\project\\c# project\\ums\\unicom tic management system\\viewforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\unicom tic management system\\viewforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\viewforms\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|c:\\users\\administrator\\desktop\\project\\c# project\\ums\\unicom tic management system\\viewforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\unicom tic management system\\viewforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\viewforms\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -107,7 +107,7 @@
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\models\\dtos\\academicdtos\\subjectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|c:\\users\\administrator\\desktop\\project\\c# project\\ums\\unicom tic management system\\repositories\\markrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\unicom tic management system\\repositories\\markrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF89EFC7-75E5-4966-8356-7A32BB49AA57}|Unicom Tic Management System\\Unicom Tic Management System.csproj|solutionrelative:unicom tic management system\\repositories\\markrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -986,8 +986,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Repositories\\StudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwCAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:23:26.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T07:23:26.469Z"
             },
             {
               "$type": "Document",
@@ -999,8 +998,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Utilities\\Mappers\\StaffMapper.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAkwCUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:13:52.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T16:13:52.16Z"
             },
             {
               "$type": "Document",
@@ -1012,8 +1010,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Utilities\\Mappers\\StudentMapper.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAkwBkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T16:10:49.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T16:10:49.426Z"
             },
             {
               "$type": "Document",
@@ -1025,8 +1022,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Utilities\\PasswordHasher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-21T06:32:53.026Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-21T06:32:53.026Z"
             },
             {
               "$type": "Document",
@@ -1054,6 +1050,10 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "IStudentRepository.cs",
@@ -1063,8 +1063,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Repositories\\Interfaces\\IStudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T07:21:24.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T07:21:24.44Z"
             },
             {
               "$type": "Document",
@@ -1076,8 +1075,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Services\\SubjectService.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAgwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-20T08:32:18.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-20T08:32:18.85Z"
             },
             {
               "$type": "Document",
@@ -1089,8 +1087,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Services\\Interfaces\\IStudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:29:09.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T17:29:09.078Z"
             },
             {
               "$type": "Document",
@@ -1102,8 +1099,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T05:04:11.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T05:04:11.227Z"
             },
             {
               "$type": "Document",
@@ -1115,8 +1111,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Models\\DTOs\\Grouping\u0026MentoringDTOs\\StudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T06:27:32.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T06:27:32.764Z"
             },
             {
               "$type": "Document",
@@ -1128,8 +1123,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Models\\Enums\\GenderType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T05:32:10.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T05:32:10.295Z"
             },
             {
               "$type": "Document",
@@ -1141,8 +1135,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Datas\\DatabaseSeeder.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAIA6wDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T20:43:52.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T20:43:52.82Z"
             },
             {
               "$type": "Document",
@@ -1154,8 +1147,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Datas\\Migration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:45:17.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T18:45:17.522Z"
             },
             {
               "$type": "Document",
@@ -1167,8 +1159,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Datas\\DatabaseManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:44:14.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T18:44:14.128Z"
             },
             {
               "$type": "Document",
@@ -1180,8 +1171,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\ViewForms\\MainForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T20:35:21.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T20:35:21.697Z"
             },
             {
               "$type": "Document",
@@ -1193,8 +1183,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\ViewForms\\SignUpOptionsForm.cs",
               "ViewState": "AgIAALIAAAAAAAAAAAArwMEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T19:22:08.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T19:22:08.929Z"
             },
             {
               "$type": "Document",
@@ -1206,12 +1195,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T07:56:17.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+              "WhenOpened": "2025-06-14T07:56:17.002Z"
             },
             {
               "$type": "Document",
@@ -1223,8 +1207,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Models\\User.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwBMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T04:39:24.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T04:39:24.937Z"
             },
             {
               "$type": "Document",
@@ -1236,8 +1219,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\ViewForms\\LoginForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T18:56:59.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T18:56:59.507Z"
             },
             {
               "$type": "Document",
@@ -1249,8 +1231,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAAOsAAAAAAAAAAAAYwAEBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T04:51:22.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T04:51:22.933Z"
             },
             {
               "$type": "Document",
@@ -1262,8 +1243,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Services\\Interfaces\\IExamService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T17:34:06.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T17:34:06.337Z"
             },
             {
               "$type": "Document",
@@ -1274,8 +1254,7 @@
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\Unicom Tic Management System\\ViewForms\\SignUpOptionsForm.cs [Design]",
               "RelativeToolTip": "Unicom Tic Management System\\ViewForms\\SignUpOptionsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T19:59:12.082Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-24T19:59:12.082Z"
             },
             {
               "$type": "Document",
@@ -1286,8 +1265,7 @@
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\Unicom Tic Management System\\ViewForms\\MainForm.cs [Design]",
               "RelativeToolTip": "Unicom Tic Management System\\ViewForms\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T20:23:42.938Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-24T20:23:42.938Z"
             },
             {
               "$type": "Document",
@@ -1298,8 +1276,7 @@
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Project\\C# Project\\UMS\\Unicom Tic Management System\\ViewForms\\LoginForm.cs [Design]",
               "RelativeToolTip": "Unicom Tic Management System\\ViewForms\\LoginForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T18:34:04.158Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-24T18:34:04.158Z"
             },
             {
               "$type": "Document",
@@ -1311,8 +1288,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Models\\DTOs\\AcademicDTOs\\SubjectDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T06:24:15.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T06:24:15.57Z"
             },
             {
               "$type": "Document",
@@ -1324,8 +1300,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\Repositories\\MarkRepository.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAArwHEBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T06:53:37.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T06:53:37.437Z"
             },
             {
               "$type": "Document",
@@ -2457,8 +2432,7 @@
               "RelativeToolTip": "Unicom Tic Management System\\ViewForms\\StudentRegistrationForm.Designer.cs",
               "ViewState": "AgIAAEwBAAAAAAAAAAAIwFcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-22T17:31:12.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-22T17:31:12.338Z"
             },
             {
               "$type": "Document",
